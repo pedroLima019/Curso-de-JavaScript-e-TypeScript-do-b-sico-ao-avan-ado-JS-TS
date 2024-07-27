@@ -1,0 +1,71 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: rgb(10, 189, 79);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 40px;
+}
+
+form {
+  width: 500px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  padding: 50px;
+  background: rgb(15, 80, 40);
+  border-radius: 10px;
+  box-shadow: 20px 10px 20px rgba(0, 0, 0, 0.582);
+}
+
+h1 {
+  color: rgb(255, 255, 255);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.315);
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 40px;
+}
+
+label {
+  color: white;
+  font-size: 14px;
+  padding: 10px 0;
+}
+
+input,
+select {
+  margin-bottom: 10px;
+  border-radius: 5px;
+  border: none;
+  padding: 5px;
+  outline-color: rgb(10, 189, 79);
+}
+
+input::placeholder {
+  font-size: 12px;
+  color: rgba(0, 0, 0, 0.658);
+}
+
+#saldo-atual {
+  outline: none;
+}
+
+.btn-enviar {
+  width: 100px;
+  margin: 10px auto;
+  background: white;
+  font-weight: 500;
+  transition: 0.3s all;
+}
+
+.btn-enviar:hover {
+  background: rgb(0, 0, 0);
+  color: white;
+}
